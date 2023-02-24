@@ -5,12 +5,11 @@ nclude "main.h"
  */
 void print_numbers(void)
 {
-	int i;
+	char c;
 
-	for (i = 0; i < 10; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(i + '0');
+		_putchar(c);
 	}
-
 	_putchar('\n');
 }
