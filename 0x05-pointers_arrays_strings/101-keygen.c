@@ -5,7 +5,6 @@
  *  * main - generates keygen.
  *   * Return: 0 Always.
  */
-
 int main(void)
 {
 	int r = 0, c = 0;
@@ -22,4 +21,5 @@ int main(void)
 	}
 	printf("%c\n", (2772 - c));
 	return (0);
+
 }
